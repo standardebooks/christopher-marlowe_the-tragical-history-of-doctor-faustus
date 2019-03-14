@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1400 540">
+	<title>The titlepage for the Standard Ebooks edition of The Tragical History of Doctor Faustus, by Christopher Marlowe</title>
+	<style type="text/css">
+		text{
+			font-family: League Spartan;
+			letter-spacing: 5px;
+			text-anchor: middle;
+		}
+
+		.title{
+			font-size: 93.56725311px;
+		}
+
+		.author{
+			font-size: 70.17543793px;
+		}
+	</style>
+	<text class="title" x="700" y="130">THE</text>
+	<text class="title" x="700" y="230">TRAGICAL HISTORY</text>
+	<text class="title" x="700" y="330">OF DOCTOR FAUSTUS</text>
+	<text class="author" x="700" y="490">CHRISTOPHER MARLOWE</text>
+</svg>
