@@ -92,7 +92,7 @@
 }
 
 #indent{
-	padding-left: 3em;
+	padding-left: 6em;
 }
 
 footer{
@@ -100,12 +100,12 @@ footer{
 	text-align: right;
 }
 
-.signature{
-	font-variant: small-caps;
-}
-
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	display: block;
 	font-size: .75em;
 	font-weight: normal;
+}
+
+.signature{
+	font-variant: small-caps;
 }
