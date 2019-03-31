@@ -94,8 +94,9 @@
 	display: none;
 }
 
-#indent{
-	padding-left: 6em;
+[epub|type~="z3998:verse"] p > span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 footer{
