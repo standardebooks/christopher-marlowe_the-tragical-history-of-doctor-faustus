@@ -106,8 +106,8 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="editors-note.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="dramatis-personae.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
 		<itemref idref="the-play.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
