@@ -42,7 +42,7 @@
 		<dc:description id="description">Dr. Faustus sells his soul to Lucifer in return for magical powers.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Tragical History of Doctor Faustus&lt;/i&gt;, Christopher Marlowe’s classic interpretation of the Dr. Faustus legend, was first performed in London by the Admiral’s Men around 1592. It is believed to be the first dramatization of this classic tale wherein Faustus, a German scholar, trades his soul to Lucifer in return for magical powers and the command over the demon Mephistophilis. Faustus at first seeks to expand his knowledge of the universe, but soon finds that a deal with the devil brings little satisfaction. All too soon the contract expires, and Faustus is faced with the prospect of eternal damnation.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Tragical History of Doctor Faustus&lt;/i&gt;, Christopher Marlowe’s classic interpretation of the Dr. Faustus legend, was first performed in London by the Admiral’s Men around 1592. It is believed to be the first dramatization of this classic tale wherein Faustus, a German scholar, trades his soul to Lucifer in return for magical powers and the command over the demon Mephistopheles. Faustus at first seeks to expand his knowledge of the universe, but soon finds that a deal with the devil brings little satisfaction. All too soon the contract expires, and Faustus is faced with the prospect of eternal damnation.&lt;/p&gt;
 			&lt;p&gt;Two principle versions of this play exist, one based on the 1604 quarto (the A text) and a longer, emended version published in 1616 (the B text). This edition is based on Havelock Ellis’s 1893 edition of the 1604 text (the A text is currently believed by many scholars to be the closest to Marlowe’s original).&lt;/p&gt;
 			&lt;p&gt;Often considered to be Marlowe‘s greatest work, &lt;i&gt;Doctor Faustus&lt;/i&gt; builds on the ancestry of the medieval morality play, but brings a more sympathetic view to the straying hero than those precursors to Elizabethan drama, and even ventures to pose questions of common Christian doctrine. This is the last play written by Marlowe before he was killed in a Deptford tavern.&lt;/p&gt; </meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
@@ -96,13 +96,29 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/chorus.xhtml" id="chorus.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/dramatis-personae.xhtml" id="dramatis-personae.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/editors-note.xhtml" id="editors-note.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-		<item href="text/the-tragical-history-of-doctor-faustus.xhtml" id="the-tragical-history-of-doctor-faustus.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-1.xhtml" id="scene-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-2.xhtml" id="scene-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-3.xhtml" id="scene-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-4.xhtml" id="scene-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-5.xhtml" id="scene-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-6.xhtml" id="scene-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-7.xhtml" id="scene-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-8.xhtml" id="scene-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-9.xhtml" id="scene-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-10.xhtml" id="scene-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-11.xhtml" id="scene-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-12.xhtml" id="scene-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-13.xhtml" id="scene-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-14.xhtml" id="scene-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-15.xhtml" id="scene-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/scene-16.xhtml" id="scene-16.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
@@ -112,7 +128,23 @@
 		<itemref idref="editors-note.xhtml"/>
 		<itemref idref="dramatis-personae.xhtml"/>
 		<itemref idref="halftitle.xhtml"/>
-		<itemref idref="the-tragical-history-of-doctor-faustus.xhtml"/>
+		<itemref idref="chorus.xhtml"/>
+		<itemref idref="scene-1.xhtml"/>
+		<itemref idref="scene-2.xhtml"/>
+		<itemref idref="scene-3.xhtml"/>
+		<itemref idref="scene-4.xhtml"/>
+		<itemref idref="scene-5.xhtml"/>
+		<itemref idref="scene-6.xhtml"/>
+		<itemref idref="scene-7.xhtml"/>
+		<itemref idref="scene-8.xhtml"/>
+		<itemref idref="scene-9.xhtml"/>
+		<itemref idref="scene-10.xhtml"/>
+		<itemref idref="scene-11.xhtml"/>
+		<itemref idref="scene-12.xhtml"/>
+		<itemref idref="scene-13.xhtml"/>
+		<itemref idref="scene-14.xhtml"/>
+		<itemref idref="scene-15.xhtml"/>
+		<itemref idref="scene-16.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
