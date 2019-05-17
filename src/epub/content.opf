@@ -26,26 +26,28 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Tragical History of Doctor Faustus</dc:title>
 		<meta property="file-as" refines="#title">Tragical History of Doctor Faustus, The</meta>
 		<dc:subject id="subject-1">Germany -- Drama</dc:subject>
 		<dc:subject id="subject-2">Tragedies</dc:subject>
 		<dc:subject id="subject-3">Faust, -approximately 1540 -- Drama</dc:subject>
 		<dc:subject id="subject-4">Magicians -- Drama</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/779</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/779</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/779</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/779</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2001009136</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008107184</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Drama</meta>
 		<dc:description id="description">Dr. Faustus sells his soul to Lucifer in return for magical powers.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Tragical History of Doctor Faustus&lt;/i&gt;, Christopher Marlowe’s classic interpretation of the Dr. Faustus legend, was first performed in London by the Admiral’s Men around 1592. It is believed to be the first dramatization of this classic tale wherein Faustus, a German scholar, trades his soul to Lucifer in return for magical powers and the command over the demon Mephistopheles. Faustus at first seeks to expand his knowledge of the universe, but soon finds that a deal with the devil brings little satisfaction. All too soon the contract expires, and Faustus is faced with the prospect of eternal damnation.&lt;/p&gt;
 			&lt;p&gt;Two principal versions of this play exist, one based on the 1604 quarto (the A text) and a longer, emended version published in 1616 (the B text). This edition is based on Havelock Ellis’s 1893 edition of the 1604 text (the A text is currently believed by many scholars to be the closest to Marlowe’s original).&lt;/p&gt;
 			&lt;p&gt;Often considered to be Marlowe’s greatest work, &lt;i&gt;Doctor Faustus&lt;/i&gt; builds on the ancestry of the medieval morality play, but brings a more sympathetic view to the straying hero than those precursors to Elizabethan drama, and even ventures to pose questions of common Christian doctrine. This is the last play written by Marlowe before he was killed in a Deptford tavern.&lt;/p&gt; </meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/779</dc:source>
 		<dc:source>https://archive.org/details/christophermarl00elligoog</dc:source>
