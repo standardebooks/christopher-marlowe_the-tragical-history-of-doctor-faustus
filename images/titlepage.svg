@@ -3,7 +3,7 @@
 	<title>The titlepage for the Standard Ebooks edition of The Tragical History of Doctor Faustus, by Christopher Marlowe</title>
 	<style type="text/css">
 		text{
-			font-family: League Spartan;
+			font-family: league spartan;
 			letter-spacing: 5px;
 			text-anchor: middle;
 		}
