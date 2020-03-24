@@ -109,3 +109,18 @@ section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 .signature{
 	font-variant: small-caps;
 }
+
+[epub|type~="z3998:song"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
