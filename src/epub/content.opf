@@ -41,8 +41,8 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008107184</meta>
-		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Drama</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">Dr. Faustus sells his soul to Lucifer in return for magical powers.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Tragical History of Doctor Faustus&lt;/i&gt;, Christopher Marlowe’s classic interpretation of the Dr. Faustus legend, was first performed in London by the Admiral’s Men around 1592. It is believed to be the first dramatization of this classic tale wherein Faustus, a German scholar, trades his soul to Lucifer in return for magical powers and the command over the demon Mephistopheles. Faustus at first seeks to expand his knowledge of the universe, but soon finds that a deal with the devil brings little satisfaction. All too soon the contract expires, and Faustus is faced with the prospect of eternal damnation.&lt;/p&gt;
