@@ -83,8 +83,8 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br{
@@ -92,8 +92,8 @@ i [epub|type~="z3998:persona"]{
 }
 
 [epub|type~="z3998:verse"] p > span.i6{
-	text-indent: -1em;
 	padding-left: 6em;
+	text-indent: -1em;
 }
 
 footer{
