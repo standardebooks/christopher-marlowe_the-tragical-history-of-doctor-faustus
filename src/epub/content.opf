@@ -70,6 +70,7 @@
 		<meta property="file-as" refines="#editor">Ellis, Havelock</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="transcriber-1">Gary R. Young</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Young, Gary R.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
