@@ -68,8 +68,8 @@
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor">Havelock Ellis</dc:contributor>
 		<meta property="file-as" refines="#editor">Ellis, Havelock</meta>
-		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="transcriber-1">Gary R. Young</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Young, Gary R.</meta>
