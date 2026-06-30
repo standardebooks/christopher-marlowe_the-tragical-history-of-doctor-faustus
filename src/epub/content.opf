@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/christopher-marlowe/the-tragical-history-of-doctor-faustus</dc:identifier>
 		<dc:date>2019-03-31T17:51:53Z</dc:date>
 		<meta property="dcterms:modified">2019-03-31T17:51:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -41,7 +42,7 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008107184</meta>
-		<meta property="se:subject">Drama</meta>
+		<meta property="schema:genre">Drama</meta>
 		<dc:description id="description">Dr. Faustus sells his soul to Lucifer in return for magical powers.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Tragical History of Doctor Faustus&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/christopher-marlowe"&gt;Christopher Marlowe’s&lt;/a&gt; classic interpretation of the &lt;abbr&gt;Dr.&lt;/abbr&gt; Faustus legend, was first performed in London by the Admiral’s Men around 1592. It is believed to be the first dramatization of this classic tale wherein Faustus, a German scholar, trades his soul to Lucifer in return for magical powers and the command over the demon Mephistopheles. Faustus at first seeks to expand his knowledge of the universe, but soon finds that a deal with the devil brings little satisfaction. All too soon the contract expires, and Faustus is faced with the prospect of eternal damnation.&lt;/p&gt;
@@ -51,20 +52,21 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/779</dc:source>
 		<dc:source>https://archive.org/details/christophermarl00elligoog</dc:source>
-		<meta property="se:production-notes">This version was based on Guttenberg's transcription of Dyce but updated to reflect Ellis’ later edition. Stage directions were moved onto their own lines unless they were meant to be inline with dialogue.</meta>
-		<meta property="se:word-count">12711</meta>
-		<meta property="se:reading-ease.flesch">73.37</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Doctor_Faustus_(play)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/christopher-marlowe_the-tragical-history-of-doctor-faustus</meta>
+		<meta property="schema:wordCount">12711</meta>
+		<meta property="schema:educationalLevel">73.37</meta>
+		<link href="https://en.wikipedia.org/wiki/Doctor_Faustus_(play)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/christopher-marlowe_the-tragical-history-of-doctor-faustus" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Christopher Marlowe</dc:creator>
 		<meta property="file-as" refines="#author">Marlowe, Christopher</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Christopher_Marlowe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78088956</meta>
+		<link href="https://en.wikipedia.org/wiki/Christopher_Marlowe" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78088956.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Eilif Peterssen</dc:contributor>
 		<meta property="file-as" refines="#artist">Peterssen, Eilif</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Eilif_Peterssen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr97041985</meta>
+		<link href="https://en.wikipedia.org/wiki/Eilif_Peterssen" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr97041985.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor">Havelock Ellis</dc:contributor>
 		<meta property="file-as" refines="#editor">Ellis, Havelock</meta>
@@ -76,11 +78,11 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://astart.ca/</meta>
+		<link href="https://astart.ca/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -90,7 +92,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

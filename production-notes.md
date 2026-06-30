@@ -1,0 +1,1 @@
+This version was based on Guttenberg's transcription of Dyce but updated to reflect Ellis’ later edition. Stage directions were moved onto their own lines unless they were meant to be inline with dialogue.
