@@ -65,11 +65,15 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Eilif Peterssen</dc:contributor>
 		<meta property="file-as" refines="#artist">Peterssen, Eilif</meta>
+		<meta property="schema:alternateName" refines="#artist">Hjalmar Eilif Emanuel Peterssen</meta>
 		<link href="https://en.wikipedia.org/wiki/Eilif_Peterssen" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/nr97041985.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor">Havelock Ellis</dc:contributor>
 		<meta property="file-as" refines="#editor">Ellis, Havelock</meta>
+		<meta property="schema:alternateName" refines="#editor">Henry Havelock Ellis</meta>
+		<link href="https://en.wikipedia.org/wiki/Havelock_Ellis" refines="#editor" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78087633.html" refines="#editor" rel="schema:sameAs"/>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">wfw</meta>
@@ -79,6 +83,7 @@
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">B. Timothy Keith</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Keith, B. Timothy</meta>
@@ -92,7 +97,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
